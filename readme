@@ -1,0 +1,16 @@
+1.根目录下 npm install
+2.gulp
+3.webpack
+4.npm run start 启动项目
+5.npm run unit	测试add方法
+6.https://chromedriver.storage.googleapis.com/index.html?path=2.25/
+  下载测试浏览器，npm run e2e
+7.停止服务 npm start service
+
+
+注：
+1.测试add方法时，原文件有es6代码，单测报错，所以把函数复制到
+'./src/public/common/addtest.js'
+2.因为类似，所以大拇指向上和向下点击用的一个请求
+3.service测试需要停止服务，暂时没有找到不停止服务的方法
+4.要导入数据库文件
